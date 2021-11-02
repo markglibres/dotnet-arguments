@@ -1,0 +1,15 @@
+name: NuGet Package
+
+on:
+  workflow_dispatch:
+
+jobs:
+  unit-tests:
+    name: NuGet Package
+    runs-on: [ubuntu-latest]
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@main
+
+      - name: Pack and Publish NuGet package
+        run: ./utils/package.sh --nuget-api-key {{ secrets.NUGET_APIKEY }}
