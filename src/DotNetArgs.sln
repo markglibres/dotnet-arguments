@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetArgs", "DotNetArgs\DotNetArgs.csproj", "{D489A923-3954-40B3-9A00-F15B8CA79257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetArgs.UnitTests", "DotNetArgs.UnitTests\DotNetArgs.UnitTests.csproj", "{BF6C1EDD-672D-43AC-9BC1-255E1E18AC6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D489A923-3954-40B3-9A00-F15B8CA79257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D489A923-3954-40B3-9A00-F15B8CA79257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D489A923-3954-40B3-9A00-F15B8CA79257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D489A923-3954-40B3-9A00-F15B8CA79257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF6C1EDD-672D-43AC-9BC1-255E1E18AC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF6C1EDD-672D-43AC-9BC1-255E1E18AC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF6C1EDD-672D-43AC-9BC1-255E1E18AC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF6C1EDD-672D-43AC-9BC1-255E1E18AC6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
