@@ -30,7 +30,7 @@ FILEPATH=$(dirname "$0")
 SCRIPTDIR=$(cd "$(dirname "$FILEPATH")"; pwd -P)/$(basename "$FILEPATH")
 
 cd $SCRIPTDIR
-cd ../src
+cd ../src/DotNetArgs
 
 dotnet pack
 dotnet nuget push bin/Debug/DotNetArguments.*.nupkg --api-key $NUGET_API_KEY --source https://api.nuget.org/v3/index.json
