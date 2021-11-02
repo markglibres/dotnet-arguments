@@ -33,4 +33,4 @@ cd $SCRIPTDIR
 cd ../src
 
 dotnet pack
-dotnet nuget push DotNetArguments.*.nupkg --api-key $NUGET_API_KEY --source https://api.nuget.org/v3/index.json
+dotnet nuget push bin/Debug/DotNetArguments.*.nupkg --api-key $NUGET_API_KEY --source https://api.nuget.org/v3/index.json
