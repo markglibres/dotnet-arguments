@@ -14,7 +14,7 @@ namespace DotNetArgs.UnitTests
             {
                 "--indexes",
                 "[1,2,3]"
-            }); 
+            });
 
             When(ConfigurationExtensions.ParseArgs);
 
